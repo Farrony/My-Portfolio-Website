@@ -1,0 +1,159 @@
+/* XL Device :1200px. */
+/* container width 1140px  */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* .slider-icon{
+        margin-bottom: 0px;
+    } */
+}
+
+/* LG Device :992px. */
+/* container width 960px  */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .single-offer {
+        min-height: 500px;
+    }
+    .hero-text h1{
+        font-size: 40px;
+    }
+    .hero-text h6{
+        font-size: 16px;
+    }
+    .hero-text h4{
+        font-size: 16px;
+    }
+    .hero-img {
+        width: 63%;
+    }
+    .about-text {
+        margin-top: 0px;
+    }
+    .review-star{
+        display: none;
+    }
+    .footer-right h6{
+        font-size: 14px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+/* container width 720px  */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-text h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .hero-text{
+        top: 66%;
+    }
+    .hero-text h6{
+        font-size: 14px;
+    }
+    .hero-text h4{
+        font-size: 14px;
+    }
+    .hero-img {
+        width: 63%;
+        margin-top: 80px;
+    }
+    .about-text {
+        margin-top: 0px;
+    }
+    .footer-right h6{
+        font-size: 14px;
+    }
+    .primary-btn{
+        font-size: 14px;
+    }
+    .secondary-btn{
+        font-size: 14px;
+    }
+    .about-img {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .row.filtr-container {
+        text-align: center;
+        overflow: hidden;
+    }
+    .hero-area {
+        height: 80vh;
+    }
+    .blog-info {
+        min-height: 222px;
+        border: 1px solid #fff;
+    }
+    .header-area .dots:hover::after{
+        opacity: 0;
+    }
+
+
+}
+
+ 
+/* Extra small Device. */
+/* container width 540px  */
+@media (max-width: 767px) {
+    .header-area .dots:hover::after{
+        opacity: 0;
+    }
+   .hero-img{
+       display: none;
+   }
+   .hero-text h1{
+    font-size: 30px;
+    line-height: 20px;
+    }
+    .hero-text h6{
+        font-size: 14px;
+    }
+    .hero-area{
+        text-align: center;
+    }
+    .hero-text h4{
+        font-size: 14px;
+    }
+    .hero-text {
+        transform: translateY(0%);
+        text-align: center;
+        padding-top: 100px;
+        width: 100%;
+    }
+    .about-area{
+        text-align: center;
+    }
+    .about-img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .single-blog{
+        text-align: center;
+    }
+    .contact-us{
+        display: none;
+    }
+    .get-in-touch-text {
+        margin-left: 0%;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .get-in-touch {
+        background: #fff;
+        padding: 10px 10px;
+    }
+ 
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-area .dots:hover::after{
+        opacity: 0;
+    }
+    .get-in-touch {
+        background: #fff;
+        padding: 10px 10px;
+    }
+
+}
